@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../../bootstrap/jquery/jquery.js"></script>
+    <script src="../../bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../img/nobles_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <style>
+        /* [class*=col-] {
+            border: 1px solid black;
+        } */
+        
+        .bg-4 {
+            background-color: #2f2f2f;
+            /* Black Gray */
+            color: #fff;
+        }
+        
+        .container-fluid {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <title>Nobles Store</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- LOGO -->
+        <div class="row">
+            <img src="../img/lamborghini-logo.jpg" alt="LOGO" style="width: 100%; height: auto;">
+        </div>
+        <!-- END -->
+
+        <!-- Nav -->
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="./home.html">Trang chủ</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./xe1.html">Lamborghini Urus</a></li>
+                                <li><a href="./xe1.html">Lamborghini Aventador S</a></li>
+                                <li><a href="./xe1.html">Lamborghini Huracan LP 580 - 2</a></li>
+                                <li><a href="./xe1.html">Lamborghini Aventador LP 610 - 4</a></li>
+                                <li><a href="./xe1.html">Lamborghini Huracan Performante</a></li>
+                                <li><a href="./xe1.html">Lamborghini Aventador LP 700-4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="./gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="./chinhsach.html">Chính sách</a></li>
+                        <li><a href="./baotri.html">Bảo dưỡng</a></li>
+                        <li><a href="#">Phụ kiện</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="./dangky.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="./dangnhap.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <!-- END -->
+
+        <!-- SLIDESHOW -->
+        <div class="row">
+            <div class="container-fluid">
+                <div class="slideshow-containers" style="width:100%">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fades" style="width:100%">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="../img/xe1.jpg" style="width:100%">
+                        <div class="text">Lamborghini SIÁN FKP</div>
+                    </div>
+
+                    <div class="mySlides fades" style="width:100%">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="../img/xe2.jpg" style="width:100%">
+                        <div class="text">Lamborghini Veneno</div>
+                    </div>
+
+                    <div class="mySlides fades" style="width:100%">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="../img/xe3.jpg" style="width:100%">
+                        <div class="text">Lamborghini Lambo V12</div>
+                    </div>
+
+                    <div class="mySlides fades" style="width:100%">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="../img/xe4.jpg" style="width:100%">
+                        <div class="text">Lamborghini Aventador</div>
+                    </div>
+
+                    <div class="mySlides fades" style="width:100%">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="../img/xe5.jpg" style="width:100%">
+                        <div class="text">Lamborghini Urus</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a id="prev" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a id="next" class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+
+        <!-- Content and Nav -->
+        <div class="row">
+            <div>
+                <h2 style="border-bottom: 4px double #0c2b69; text-align: center;">
+                    <span style="text-transform: uppercase; font-weight: bold; position: relative; top: 15px; background-color: white;">Sản phẩm</span>
+
+                </h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="min-height: 400px;">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe1.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini SIÁN FKP</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    23,120,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe2.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Veneno</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    59,60,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe3.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Lambo V12</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    32,120,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe4.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Aventador</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    88,680,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe5.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Urus</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    45,840,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe6.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Huracan EVO</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    63,270,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe7.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Huracan 2020</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    53,320,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe8.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini SC18</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    92,580,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 item">
+                            <a href="./xe1.html">
+                                <img class="img" src="../img/xe9.jpg" alt="xe1">
+                            </a>
+                            <div class="detail">
+                                <a href="./xe1.html">Lamborghini Aventador SVJ</a>
+                                <br>
+                                <span class="rateting">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <br>
+                                <span class="price">
+                                    56,230,000,000 vnđ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+
+        <!-- Footer -->
+        <footer class="container-fluid bg-4 text-center " style="background-image: url( '../img/anhgioithieu.png'); ">
+            <h2>CỬA HÀNG NOBLES STORE BÌNH DƯƠNG</h2>
+            <h3>Nobles Store kính thưa quý khách hàng!</h3>
+            <p>Cửa hàng Nobles Store Bình Dương xin gửi đến Quý khách hàng lời tri ân và cảm ơn Quý khách hàng đã lựa chọn sử dụng sản phẩm và dịch vụ của cửa hàng chúng tôi trong suốt những năm vừa qua. Được thành lập năm 2019 với ngành nghề kinh doanh
+                chính là bán xe, phụ tùng, sửa chữa cho dòng xe Lamborghini, là cửa hàng duy nhất tại Bình Dương được cấp phép kinh doanh và sửa chữa dòng xe Lamborghini theo tiêu chuẩn quốc tế tại Việt Nam.</p>
+        </footer>
+        <!-- CAC NHA TAI TRO -->
+        <div class="row">
+            <div class="container-fluid bg-4 text-center" style="background-color: #333333;">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                    <ul class="ul-footer">
+                        <li>
+                            <div class="title-footer">
+                                Liên hệ
+                            </div>
+                        </li>
+                        <li><a href="#">32 Bùi Thị Xuân, Tân Phú 2, Tân Bình, Dĩ An, Bình Dương</a></li>
+                        <li><a href="#">Điện thoại: 0944.734.501</a></li>
+                        <li><a href="#">Email: phamanhtuan24031999@gmail.com</a></li>
+                        <li><a href="#">Website: anhtuanit.com.vn</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                    <ul class="ul-footer">
+                        <li>
+                            <div class="title-footer">
+                                Về cửa hàng
+                            </div>
+                        </li>
+                        <li><a href="#">Giới thiệu về cửa hàng</a></li>
+                        <li><a href="#">Chi nhánh Bình Phước</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Tin tức công ty</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                    <ul class="ul-footer">
+                        <li>
+                            <div class="title-footer">
+                                Thông tin cần thiết
+                            </div>
+                        </li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Góp ý - Khiếu nại</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+    </div>
+    <script src="../js/slideshow.js "></script>
+    <script>
+        let auto;
+        const autoSlideShow = () => {
+            plusSlides(1);
+            auto = setTimeout(autoSlideShow, 3000);
+        }
+        $(document).ready(() => {
+            autoSlideShow();
+            $("#prev").mouseover(() => {
+                clearTimeout(auto);
+            });
+
+            $("#next").mouseover(() => {
+                clearTimeout(auto);
+            });
+        });
+    </script>
+</body>
+
+</html>
